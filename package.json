@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js && eslint test.js",
+    "lint": "eslint . --ext .js",
     "preversion": "npm test",
     "pretest": "npm run lint",
     "test": "node test.js"
