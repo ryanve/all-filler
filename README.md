@@ -8,14 +8,14 @@ npm install all-filler --save
 ## Usage
 
 ```
-var fill = require('all-filler')
+var fill = require("all-filler")
 ```
 
 ### strings
 ```
-fill('012', 7) // '777'
-fill('012', 7, -1) // '017'
-fill('012', 7, 0, 1) // '712'
+fill("012", 7) // "777"
+fill("012", 7, -1) // "017"
+fill("012", 7, 0, 1) // "712"
 ```
 
 ### arrays

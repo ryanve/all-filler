@@ -1,12 +1,12 @@
 !function(root, name, make) {
-  if (typeof module != 'undefined' && module.exports) module.exports = make()
+  if (typeof module != "undefined" && module.exports) module.exports = make()
   else root[name] = make()
-}(this, 'all-filler', function() {
+}(this, "all-filler", function() {
 
   // Adapted from MDN Array.prototype.fill polyfill
   return function(O, value, start, end) {
-    var isString = typeof O == 'string'
-    O = isString ? O.split('') : O
+    var isString = typeof O == "string"
+    O = isString ? O.split("") : O
 
     // Steps 3-5.
     var len = O.length >>> 0
@@ -27,7 +27,7 @@
     while (k < final) O[k++] = value
 
     // Relative return
-    return isString ? O.join('') : O
+    return isString ? O.join("") : O
   }
 
 });
