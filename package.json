@@ -1,6 +1,6 @@
 {
   "name": "all-filler",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Fill function for arrays or strings based on array.fill",
   "author": "Ryan Van Etten",
   "license": "MIT",
