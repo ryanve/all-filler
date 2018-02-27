@@ -23,6 +23,7 @@
     "strings",
     "string-replace",
     "javascript",
+    "ponyfill",
     "utility",
     "module",
     "util"
